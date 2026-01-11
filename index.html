@@ -22,10 +22,49 @@
       integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
       crossorigin="anonymous"
     ></script>
+    <!-- google font (manrope, jost, ibm plex sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header class="shadow-sm">
+      <nav
+        class="d-flex justify-content-between align-items-center p-3 pe-5 ps-5"
+      >
+        <div class="title d-flex gap-1 align-items-center">
+          <span class="logo">
+            <svg
+              class="text-primary"
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-lightning-charge"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41z"
+              />
+            </svg>
+          </span>
+          <h1 class="fs-4 fw-bold m-0">SimpleLanding</h1>
+        </div>
+        <div class="nav-menu d-flex gap-5">
+          <a href="#" class="nav-menu-item fs-5">Beranda</a>
+          <a href="#" class="nav-menu-item fs-5">Fitur</a>
+          <a href="#" class="nav-menu-item fs-5">Produk</a>
+          <a href="#" class="nav-menu-item fs-5">Tentang</a>
+          <a href="#" class="nav-menu-item fs-5">Kontak</a>
+        </div>
+      </nav>
+    </header>
+
     <!-- bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
