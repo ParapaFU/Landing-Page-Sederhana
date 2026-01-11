@@ -65,3 +65,11 @@ nav .nav-menu-item:hover {
 .btn {
   font-family: "IBM Plex Sans", sans-serif;
 }
+
+.icon {
+  background-color: rgba(13, 110, 253, 0.25);
+}
+
+.fitur-item h4 {
+  font-family: "Jost", sans-serif;
+}
