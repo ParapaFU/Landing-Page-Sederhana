@@ -1,0 +1,29 @@
+.title h1 {
+  font-family: "Manrope", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+  color: #6c757d;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #0d6efd;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav .nav-menu-item:hover {
+  color: #0d6efd;
+}
