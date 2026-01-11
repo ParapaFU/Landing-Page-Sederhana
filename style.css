@@ -7,6 +7,8 @@ nav a {
   position: relative;
   transition: color 0.3s ease;
   color: #6c757d;
+  padding-bottom: 2px;
+  font-family: "Jost", sans-serif;
 }
 
 nav a::after {
@@ -26,4 +28,40 @@ nav a:hover::after {
 
 nav .nav-menu-item:hover {
   color: #0d6efd;
+}
+
+.home {
+  height: 100vh;
+}
+
+.btn {
+  font-size: 0.9rem;
+}
+
+.btn-item {
+  background-color: #0d6efd;
+  transition: 0.3s ease;
+  color: white;
+}
+
+.btn-outline-primary {
+  transition: 0.3s ease;
+}
+
+.btn-item:hover,
+.btn-outline-primary:hover {
+  background-color: #06439d;
+  color: #0d6efd;
+}
+
+.home .row .col h1 {
+  font-family: "Manroupe", sans-serif;
+}
+
+.home .row .col p {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.btn {
+  font-family: "IBM Plex Sans", sans-serif;
 }
